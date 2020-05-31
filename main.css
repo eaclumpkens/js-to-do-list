@@ -1,0 +1,109 @@
+body {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	background: #e9bd49;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;;
+}
+
+
+h1 {
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+p {
+    font-weight: 500;
+    margin: 5px;
+}
+
+#container{
+    background: #e9b000;
+    max-width: 50rem;
+    padding: 1rem;
+    border-radius: 1.3rem;
+	margin-top: 5rem;
+}
+
+#first {
+	margin-top: 10px;
+}
+
+#third {
+	margin-bottom: 30px;
+}
+
+
+#enter {
+	border: none;
+	padding: 5px 15px;
+	border-radius: 5px;
+	color: #fff;
+	background-color: #d9a23d;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.75s ease;
+	-moz-transition: all 0.75s ease;
+	-ms-transition: all 0.75s ease;
+	-o-transition: all 0.75 ease;
+	font-weight: normal;
+}
+
+#enter:hover{
+	background-color: #f29f05;
+	color: #fff;
+}
+
+ul {
+	text-align: left;
+	margin-top: 20px;
+}
+
+
+li {
+	list-style: none;
+	padding: 10px 20px;
+	color: #ffffff;
+	text-transform: capitalize;
+	font-weight: 600;
+	border: 2px solid #e9b000;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	background: #e9bd49;
+	transition: all 0.75s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5 ease;
+}
+
+li:hover {
+	background: #e9bd49;
+}
+
+li > button {
+	font-weight: normal;
+	background: none;
+	border: none;
+	float: right;
+	color: #ffffff;
+	font-weight: 800;
+}
+
+input {
+	border-radius: 5px;
+	min-width: 65%;
+	padding: 5px;
+	border: none;
+}
+
+
+.done {
+	background: #51DF70 !important;
+	color: #00891E;
+}
+
+.delete {
+	display: none;
+}
